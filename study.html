@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- css index -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/partials/page-study.css">
+    <link rel="stylesheet" href="./styles/partials/header.css">
+    <link rel="stylesheet" href="./styles/partials/forms.css">
+    <!-- font poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body id="page-study">
+
+    <div id="container">
+
+        <header class="page-header">
+            <div class="topbar-container">
+                <a href="/">
+                    <img src="./images/icons/back.svg" alt="Back">
+                </a>
+
+                <img src="./images/logo.svg" alt="Proffy">
+            </div>
+
+            <div class="header-content">
+                <strong>These are the available proffys</strong>
+
+                <form id="search-teachers" action="">
+                    <div class="select-block">
+                        <label for="subject">Discipline</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="" hidden="" >Select a option</option>
+                            <option value="1">Arts</option>
+                            <option value="2">Math</option>
+                            <option value="3">Science</option>
+                            <option value="4">Phisic</option>
+                            <option value="5">History</option>
+                            <option value="6">Portuguese</option>
+                            <option value="7">English</option>
+                            <option value="8">Quimic</option>
+                        </select>
+                    </div>
+
+                    <div class="select-block">
+                        <label for="weekday">Weekday</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="" >Select a option</option>
+                            <option value="1">Sunday</option>
+                            <option value="2">Monday</option>
+                            <option value="3">Tuesday</option>
+                            <option value="4">Wednesday</option>
+                            <option value="5">Thursday</option>
+                            <option value="6">Friday</option>
+                            <option value="7">Saturday</option>
+                        </select>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="time">Time</label>
+                        <input type="time" name="time" id="time">
+                    </div>
+
+                    <button type="submit">Filter</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                
+                <header>
+                 
+                    <img src="https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4" 
+                         alt="Diego Fernandes">
+                 
+                    <div>
+                        <strong>Diego Fernandes</strong>
+                        <span>Quimica</span>
+                    </div>
+                
+                </header>
+                
+                <p>
+                    Entusiasta das melhores tecnologias de química avançada
+                    <br><br>
+                    Apaixonado por explodir coisas em laboratório Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+
+                <footer>
+                    
+                    <p>
+                        Preço/Hora
+                        <strong>R$ 20,00</strong>
+                    </p>
+
+                    <button><img src="./images/icons/whatsapp.svg" alt="Whatsapp">
+                        Entrar em contato
+                    </button>
+                </footer>
+            </article>
+
+            <article class="teacher-item">
+                
+                <header>
+                 
+                    <img src="https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4" 
+                         alt="Diego Fernandes">
+                 
+                    <div>
+                        <strong>Diego Fernandes</strong>
+                        <span>Quimica</span>
+                    </div>
+                
+                </header>
+                
+                <p>
+                    Entusiasta das melhores tecnologias de química avançada
+                    <br><br>
+                    Apaixonado por explodir coisas em laboratório Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+
+                <footer>
+                    
+                    <p>
+                        Preço/Hora
+                        <strong>R$ 20,00</strong>
+                    </p>
+
+                    <button><img src="./images/icons/whatsapp.svg" alt="Whatsapp">
+                        Entrar em contato
+                    </button>
+                </footer>
+            </article>
+        </main>
+
+    </div>
+
+</body>
+</html>
