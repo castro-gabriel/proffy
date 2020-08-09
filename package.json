@@ -1,0 +1,22 @@
+{
+  "name": "nlw",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castro-gabriel/proffy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/castro-gabriel/proffy/issues"
+  },
+  "homepage": "https://github.com/castro-gabriel/proffy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
